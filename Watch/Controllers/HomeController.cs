@@ -19,7 +19,7 @@ namespace Watch.Controllers
         public IActionResult Index(string userName, string roomCode)
         {
             string data = $"Username: {userName}, Roomcode: {roomCode}";
-            return View(data);
+            return Content(data);
         }
     }
 }

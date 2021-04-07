@@ -37,13 +37,13 @@
             <div class="modal__content">
 
                 @* TODO: FILL THE FORM *@
-                <form asp-controller="Home" asp-action="Index">
+                <form asp-controller="Home" asp-action="Index" method="post">
                     <div class="demo-btns">
                         <div class="info">
                             <div class="buttons">
                                 <p><input type="text" name="userName" placeholder="Name:" size="18" /></p>
                                 <p><input type="text" name="roomCode" placeholder="Code of the room:" size="18" /></p>
-                                <button type="submit" class="modal__trigger2" value="Join Room" />
+                                <input type="submit" class="modal__trigger2" value="Join Room" />
                             </div>
                         </div>
                     </div>
