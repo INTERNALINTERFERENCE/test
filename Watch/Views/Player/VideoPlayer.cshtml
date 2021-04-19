@@ -1,0 +1,101 @@
+﻿@using Watch.Models;
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="~/js/video.js"></script>
+    <link rel="stylesheet" href="~/css/player.css">
+</head>
+<body>
+    <div class="content">
+        <div class="content-box">
+            <div class="content-box-left">
+                <div class="content-box-left-header">R.</div>
+                <nav>
+                    <a href="/">Home</a>
+                    @*<a href="/">Lesson</a>
+                    <a href="/">Learn</a>
+                    <a href="/">Group</a>*@
+                </nav>
+                <menu>
+                    <button class="left-notice"></button>
+                    <button class="left-setting"></button>
+                    <span></span>
+                </menu>
+            </div>
+            <div class="content-box-center">
+                <div class="content-box-center-header">               
+                    Lesson 3: Present & Past Participles
+                    <div class="content-box-center-monitor">
+                        <span>Code:</span>
+                        <span>@Model?.RoomCode</span>
+                    </div>
+                </div>
+                <iframe src="https://www.youtube.com/embed/KSHlNiU8Vak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="content-box-center-title">Lesson Materials</div>
+                <div class="content-box-center-slider">
+                    <div class="content-box-center-slider-block">
+                        <div class="slider-item">
+                            <span>Remember 1</span>
+                            <p>slider content 1</p>
+                        </div>
+                        <div class="slider-item">
+                            <span>Remember 2</span>
+                            <p>slider content 2</p>
+                        </div>
+                        <div class="slider-item">
+                            <span>Remember 3</span>
+                            <p>slider content 3</p>
+                        </div>
+                        <div class="slider-item">
+                            <span>Remember 4</span>
+                            <p>slider content 4</p>
+                        </div>
+                    </div>
+                    <button class="slider-move slider-up"></button>
+                    <button class="slider-move slider-down"></button>
+                </div>
+                <div class="content-box-center-info">
+                    About
+                    <span>pronuncition</span>
+                    <span>grammar</span>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <div class="content-box-right">
+                <div class="content-box-right-header">Teacher Name: Rob Waldinger</div>
+                <div class="content-box-right-chat">
+                    <div class="chat-item-received">
+                        <span class="chat-item-received-avatar">RW</span>
+                        <div class="chat-item-content">
+                            <span class="chat-item-title">Rob Waldinger</span>
+                            <p>A good way practice the present perfect is to ask an English-speaking friend if he or she has ever done something</p>
+                        </div>
+                    </div>
+                    <div class="chat-item-dispatch">
+                        <span class="chat-item-dispatch-avatar">AH</span>
+                        <div class="chat-item-content">
+                            <span class="chat-item-title">Rob Waldinger</span>
+                            <p>A good way practice the present perfect is to ask an English-speaking friend if he or she has ever done something</p>
+                        </div>
+                    </div>
+                    <form id="chat-form">
+                        <input name="chat-form-message" placeholder="Quick Message..." type="text" />
+                        <label onclick="" for="chat-form-submit">
+                            <input id="chat-form-submit" type="submit" style="display:none;" />
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+    <div class="background">
+        <div class="background-left"></div>
+        <div class="background-right"></div>
+    </div>
+</body>
+</html>
