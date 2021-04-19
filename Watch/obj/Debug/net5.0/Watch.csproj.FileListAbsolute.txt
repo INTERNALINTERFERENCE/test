@@ -23,7 +23,6 @@ C:\Users\Anton\Desktop\work hard\Watch\Watch\obj\Debug\net5.0\Watch.TagHelpers.i
 C:\Users\Anton\Desktop\work hard\Watch\Watch\obj\Debug\net5.0\Watch.TagHelpers.output.cache
 C:\Users\Anton\Desktop\work hard\Watch\Watch\obj\Debug\net5.0\Watch.RazorCoreGenerate.cache
 C:\Users\Anton\Desktop\work hard\Watch\Watch\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Anton\Desktop\work hard\Watch\Watch\obj\Debug\net5.0\Razor\Views\VideoPlayer.cshtml.g.cs
 C:\Users\Anton\Desktop\work hard\Watch\Watch\obj\Debug\net5.0\Watch.RazorTargetAssemblyInfo.cache
 C:\Users\Anton\Desktop\work hard\Watch\Watch\obj\Debug\net5.0\Watch.RazorTargetAssemblyInfo.cs
 C:\Users\Anton\Desktop\work hard\Watch\Watch\obj\Debug\net5.0\Watch.Views.pdb
@@ -34,3 +33,4 @@ C:\Users\Anton\Desktop\work hard\Watch\Watch\obj\Debug\net5.0\Watch.genruntimeco
 C:\Users\Anton\Desktop\work hard\Watch\Watch\obj\Debug\net5.0\Watch.csproj.CopyComplete
 C:\Users\Anton\Desktop\work hard\Watch\Watch\obj\Debug\net5.0\Razor\Views\Home\_ViewImports.cshtml.g.cs
 C:\Users\Anton\Desktop\work hard\Watch\Watch\obj\Debug\net5.0\Watch.csprojAssemblyReference.cache
+C:\Users\Anton\Desktop\work hard\Watch\Watch\obj\Debug\net5.0\Razor\Views\Player\VideoPlayer.cshtml.g.cs

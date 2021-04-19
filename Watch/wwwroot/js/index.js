@@ -17,7 +17,7 @@
 
     var getId = function (event) {
 
-        event.preventDefault();
+        //event.preventDefault();
         var self = this;
         // get the value of the data-modal attribute from the button
         var modalId = self.dataset.modal;
@@ -122,7 +122,7 @@
 
     var close = function (event) {
 
-        event.preventDefault();
+        //event.preventDefault();
         event.stopImmediatePropagation();
 
         var target = event.target;
