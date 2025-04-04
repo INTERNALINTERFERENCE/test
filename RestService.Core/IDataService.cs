@@ -4,6 +4,11 @@ namespace RestService.Core;
 
 public interface IDataService
 {
-    Task<DataDto> GetData();
-    Task<DataDto> CreateData();
+    Task<IEnumerable<DataDto>> GetData(
+        DataFilterDto? filter,
+        CancellationToken cancellationToken);
+    
+    Task CreateData(
+        IEnumerable<DataCreateDto> dtos,
+        CancellationToken cancellationToken);
 }
