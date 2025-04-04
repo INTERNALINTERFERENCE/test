@@ -26,7 +26,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\RestService.Common\RestService.Common.csproj" />
       <ProjectReference Include="..\RestService.Core\RestService.Core.csproj" />
       <ProjectReference Include="..\RestService.Infrastructure\RestService.Infrastructure.csproj" />
     </ItemGroup>
