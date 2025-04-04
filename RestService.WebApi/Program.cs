@@ -32,7 +32,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/api/data", async (
+app.MapPost("/api/data/get", async (
         IDataService service,
         [FromBody] DataFilterDto? filter,
         CancellationToken cancellationToken) =>
@@ -42,7 +42,7 @@ app.MapGet("/api/data", async (
     })
     .WithName("GetData");
 
-app.MapPost("/api/data", async (
+app.MapPost("/api/data/add", async (
         IDataService service,
         [FromBody] IEnumerable<DataCreateDto> dtos,
         CancellationToken cancellationToken) =>
