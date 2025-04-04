@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  restservice.webapi:
+    build:
+      context: "C:\\Users\\Anton\\Desktop\\RestService"
+      dockerfile: "RestService.WebApi/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/RestService.WebApi.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "restservice.webapi:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\Anton\\Desktop\\RestService\\RestService.WebApi:/app:rw"
+    - "C:\\Users\\Anton\\Desktop\\RestService:/src:rw"
+    - "C:\\Users\\Anton\\.nuget\\packages:/home/app/.nuget/packages"
+    working_dir: "/app"

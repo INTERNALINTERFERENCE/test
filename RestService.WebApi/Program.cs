@@ -19,7 +19,7 @@ app.UseHttpsRedirection();
 
 app.MapGet("/api/data", () =>
     {
-
+        
     })
     .WithName("GetData");
 
