@@ -1,0 +1,6 @@
+﻿services:
+  restservice.webapi:
+    image: restservice.webapi
+    build:
+      context: .
+      dockerfile: RestService.WebApi/Dockerfile

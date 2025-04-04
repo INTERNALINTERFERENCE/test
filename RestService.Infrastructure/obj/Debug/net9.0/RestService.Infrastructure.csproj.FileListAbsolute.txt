@@ -1,0 +1,12 @@
+C:\Users\Anton\Desktop\RestService\RestService.Infrastructure\bin\Debug\net9.0\RestService.Infrastructure.deps.json
+C:\Users\Anton\Desktop\RestService\RestService.Infrastructure\bin\Debug\net9.0\RestService.Infrastructure.dll
+C:\Users\Anton\Desktop\RestService\RestService.Infrastructure\bin\Debug\net9.0\RestService.Infrastructure.pdb
+C:\Users\Anton\Desktop\RestService\RestService.Infrastructure\obj\Debug\net9.0\RestService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Anton\Desktop\RestService\RestService.Infrastructure\obj\Debug\net9.0\RestService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anton\Desktop\RestService\RestService.Infrastructure\obj\Debug\net9.0\RestService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Anton\Desktop\RestService\RestService.Infrastructure\obj\Debug\net9.0\RestService.Infrastructure.AssemblyInfo.cs
+C:\Users\Anton\Desktop\RestService\RestService.Infrastructure\obj\Debug\net9.0\RestService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Anton\Desktop\RestService\RestService.Infrastructure\obj\Debug\net9.0\RestService.Infrastructure.dll
+C:\Users\Anton\Desktop\RestService\RestService.Infrastructure\obj\Debug\net9.0\refint\RestService.Infrastructure.dll
+C:\Users\Anton\Desktop\RestService\RestService.Infrastructure\obj\Debug\net9.0\RestService.Infrastructure.pdb
+C:\Users\Anton\Desktop\RestService\RestService.Infrastructure\obj\Debug\net9.0\ref\RestService.Infrastructure.dll
